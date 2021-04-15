@@ -1,0 +1,55 @@
+<!-- contact section starts -->
+<section id="contact" class="dtr-section dtr-py-100">
+    <div class="container"> 
+        
+        <!-- section intro row starts -->
+        <div class="row dtr-mb-50">
+            <div class="col-12 text-center">
+                <h2 class="dtr-mb-5">Get in touch</h2>
+                <p>Contact us</p>
+                <div class="dtr-styled-divider divider-center bg-light-blue"></div>
+            </div>
+        </div>
+        <!-- section intro row ends --> 
+        
+        <!-- row starts -->
+        <div class="row"> 
+            
+            <!-- column 1 starts -->
+            <div class="col-12 col-md-5 dtr-md-mb-30"> <img src="assets/images/contact-img.png" alt="image"> </div>
+            <!-- column 1 ends --> 
+            
+            <!-- column 2 starts -->
+            <div class="col-12 col-md-7"> 
+                
+                <!-- form starts -->
+                <div class="dtr-form dtr-form-has-icon">
+                    <form id="contactform" method="post" action="php/contact-form-short.php">
+                        <fieldset>
+                            <p class="dtr-input"> <i class="icon-envelope1 color-dark-blue"></i>
+                                <input name="email"  class="required email" type="text" placeholder="john.doe@example.com">
+                            </p>
+                            <p class="antispam">Leave this empty: <br />
+                                <input name="url" />
+                            </p>
+                            <p class="dtr-input"> <i class="icon-user-edit color-dark-blue"></i>
+                                <textarea rows="4" name="message" id="message" class="required"  placeholder="Write Message"></textarea>
+                            </p>
+                            <p class="dtr-m-0">
+                                <button class="dtr-btn btn-blue" type="submit">Submit</button>
+                            </p>
+                            <div id="result"></div>
+                        </fieldset>
+                    </form>
+                </div>
+                <!-- form ends --> 
+                
+            </div>
+            <!-- column 2 ends --> 
+            
+        </div>
+        <!-- row ends --> 
+        
+    </div>
+</section>
+<!-- contact section ends --> 
