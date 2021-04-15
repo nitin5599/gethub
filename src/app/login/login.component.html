@@ -1,1 +1,65 @@
-<p>login works!</p>
+<app-navbar></app-navbar>
+
+<section id="home" class="dtr-section dtr-pt-100 dtr-pb-70 dtr-section-with-bg bg-light-blue-alt parallax" style="background-image: url(assets/images/section-bg1.png);">
+    <div class="container"> 
+        
+        <!-- row starts -->
+        <div class="row d-flex align-items-center"> 
+            
+            <!-- column 1 starts -->
+            <div class="col-12 col-md-6">
+                <h3>Let’s talk about everything! </h3>
+                <p class="text-size-lg">Have a project in mind<br>
+                    or Business inquiry? Drop us a line.</p>
+                <p>There are many variations of passages of lorem ipsum available but the majority have suffered alteration in some form by injected humour.</p>
+                <h5 class="dtr-mt-30 dtr-mb-10">Our Timings</h5>
+                <p>Mon - Fri : 9:00am to 5:30pm<br>
+                    Saturday : 10:00am to 5:00pm<br>
+                    Sunday : Closed.</p>
+            </div>
+            <!-- column 1 starts --> 
+            
+            <!-- column 2 starts -->
+            <div class="col-12 col-md-6 dtr-md-mt-30">
+                <div class="dtr-box bg-light-blue-alt"> 
+                    
+                    <!-- form starts -->
+                    <div class="dtr-form">
+                        <form id="contactform" method="post" action="php/contact-form.php">
+                            <fieldset>
+                                <div class="dtr-form-row dtr-form-row-2col">
+                                <h3>Start your FREE 14-day trial now</h3>
+                                    <p class="dtr-form-column">
+                                        <input name="email"  type="text" placeholder="Email">
+                                    </p>
+                                    <p class="dtr-form-column">
+                                        <input name="password"  type="text" placeholder="password">
+                                    </p>
+                                </div>
+                                <p>
+                                <select class="dropdown" name="country" id="country"><option value="none" disabled="">Select your country</option><option value="AU">Australia</option><option value="BN">Brunei</option><option value="KH">Cambodia (កម្ពុជា)</option><option value="CN">China (中国)</option><option value="HK">Hong Kong (香港)</option><option value="ID">Indonesia</option><option value="MY">Malaysia</option><option value="MM">Myanmar (Burma) (မြန်မာ)</option><option value="NP">Nepal (नेपाल)</option><option value="PH">Philippines</option><option value="SA">Saudi Arabia (‫المملكة العربية السعودية‬‎)</option><option value="SG">Singapore</option><option value="LK">Sri Lanka (ශ්‍රී ලංකාව)</option><option value="TH">Thailand (ไทย)</option><option value="AE">United Arab Emirates (الإمارات العربية المتحدة)</option><option value="VN">Vietnam (Việt Nam)</option><option value="BD">Bangladesh (বাংলাদেশ)</option><option value="MU">Mauritius</option><option value="KE">Kenya</option></select>
+                                </p>
+
+                                <p class="antispam">Leave this empty: <br />
+                                    <input name="url" />
+                                </p>
+
+                                <button class="dtr-btn btn-blue w-100" type="submit">Let’s go!</button>
+                                <div id="result"></div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <!-- form ends --> 
+                    
+                </div>
+            </div>
+            <!-- column 2 ends --> 
+            
+        </div>
+        <!-- row ends --> 
+        
+    </div>
+</section>
+
+
+<app-footer></app-footer>
