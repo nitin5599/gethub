@@ -17,6 +17,7 @@ import { BlogComponent } from './blog/blog.component';
 import { FeedbackComponent } from './feedback/feedback.component';
 import { FaqComponent } from './faq/faq.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
+import { SignupComponent } from './signup/signup.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HowItWorksComponent } from './how-it-works/how-it-works.component';
     BlogComponent,
     FeedbackComponent,
     FaqComponent,
-    HowItWorksComponent
+    HowItWorksComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
